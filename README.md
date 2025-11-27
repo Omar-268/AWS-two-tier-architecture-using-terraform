@@ -6,7 +6,7 @@ This repository contains the Terraform configuration files to provision a highly
 
 The architecture creates a Virtual Private Cloud (VPC) spanning two Availability Zones (AZs) for high availability.
 
-![Architecture Diagram](./1.png)
+![Architecture Diagram](/Images/1.png)
 
 
 ## Key Features
@@ -54,6 +54,6 @@ The above command will provide you with a preview of the resources that are goin
 
 `terraform apply`
 This Commands will create your Infrastructure in AWS.
-![Final Output](./Screenshot_1.png)
+![Final Output](/Images/Screenshot_1.png)
 
 
