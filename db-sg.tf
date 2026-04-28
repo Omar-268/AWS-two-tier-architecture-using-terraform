@@ -1,5 +1,5 @@
 resource "aws_security_group" "db-sg" {
-  name        = var.db-sg-name
+  name        = var.db_sg_name
   description = "Database Security Group"
   vpc_id      = aws_vpc.myvpc.id
 
@@ -14,6 +14,6 @@ resource "aws_security_group" "db-sg" {
   }
 
   tags = {
-    Name = var.db-sg-name
+    Name = var.db_sg_name
   }
 } 

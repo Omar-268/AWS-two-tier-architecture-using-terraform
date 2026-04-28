@@ -1,5 +1,5 @@
 resource "aws_security_group" "lb-sg" {
-  name        = var.lb-sg-name
+  name        = var.lb_sg_name
   description = "Allow HTTP for load balancer"
   vpc_id      = aws_vpc.myvpc.id
 
@@ -20,6 +20,6 @@ resource "aws_security_group" "lb-sg" {
   }
 
   tags = {
-    Name = var.lb-sg-name
+    Name = var.lb_sg_name
   }
 } 
