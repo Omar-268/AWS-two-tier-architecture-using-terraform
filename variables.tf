@@ -85,3 +85,14 @@ variable "db_sg_name" {
 variable "key_name" {
   description = "value for key-name"
 }
+
+variable "access_key" {
+  description = "AWS IAM access key"
+  type        = string
+  sensitive   = true
+}
+variable "secret_key" {
+  description = "AWS IAM secret key"
+  type        = string
+  sensitive   = true
+}
