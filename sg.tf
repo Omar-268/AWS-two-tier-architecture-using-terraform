@@ -1,5 +1,5 @@
 resource "aws_security_group" "sg" {
-  name        = var.sg-name
+  name        = var.sg_name
   description = "Allow SSH and HTTP"
   vpc_id      = aws_vpc.myvpc.id
 
@@ -29,6 +29,6 @@ resource "aws_security_group" "sg" {
   }
 
   tags = {
-    Name = var.sg-name
+    Name = var.sg_name
   }
 } 
